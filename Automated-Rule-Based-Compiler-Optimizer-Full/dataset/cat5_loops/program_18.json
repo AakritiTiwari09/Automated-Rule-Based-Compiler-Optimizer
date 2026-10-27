@@ -1,0 +1,8 @@
+{
+  "id": "cat5_loops_18",
+  "category": "cat5_loops",
+  "source": "i = 0;\ns = 0;\nwhile (i < 11) {\n  x = i * 2;\n  s = s + x;\n  i = i + 1;\n}\nprint s;",
+  "expected_outputs": [
+    "110"
+  ]
+}

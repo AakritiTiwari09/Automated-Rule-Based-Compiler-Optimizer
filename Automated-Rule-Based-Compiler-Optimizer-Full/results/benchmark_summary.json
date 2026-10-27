@@ -1,0 +1,103 @@
+{
+  "programs": 100,
+  "tests": 500,
+  "passed": 500,
+  "correctness": 100.0,
+  "instruction_reduction": 13.0,
+  "operation_reduction": 53.33,
+  "temporary_reduction": 26.67,
+  "code_size_reduction": 18.21,
+  "per_optimizer": {
+    "Constant Folding": {
+      "programs": 20,
+      "changes": 40
+    },
+    "Constant Propagation": {
+      "programs": 20,
+      "changes": 60
+    },
+    "Algebraic Simplification": {
+      "programs": 20,
+      "changes": 40
+    },
+    "Common Subexpression Elimination": {
+      "programs": 20,
+      "changes": 20
+    },
+    "Dead Code Elimination": {
+      "programs": 40,
+      "changes": 80
+    },
+    "Strength Reduction": {
+      "programs": 40,
+      "changes": 40
+    }
+  },
+  "category_totals": {
+    "cat1_constant": {
+      "programs": 20,
+      "before": 100,
+      "after": 60,
+      "before_operations": 40,
+      "after_operations": 0,
+      "before_temporaries": 40,
+      "after_temporaries": 0,
+      "before_code_size": 900,
+      "after_code_size": 482,
+      "tests_passed": 100,
+      "tests_total": 100
+    },
+    "cat2_algebraic": {
+      "programs": 20,
+      "before": 120,
+      "after": 120,
+      "before_operations": 40,
+      "after_operations": 0,
+      "before_temporaries": 40,
+      "after_temporaries": 40,
+      "before_code_size": 1020,
+      "after_code_size": 860,
+      "tests_passed": 100,
+      "tests_total": 100
+    },
+    "cat3_dead_code": {
+      "programs": 20,
+      "before": 140,
+      "after": 140,
+      "before_operations": 40,
+      "after_operations": 40,
+      "before_temporaries": 40,
+      "after_temporaries": 40,
+      "before_code_size": 1271,
+      "after_code_size": 1291,
+      "tests_passed": 100,
+      "tests_total": 100
+    },
+    "cat4_cse": {
+      "programs": 20,
+      "before": 160,
+      "after": 120,
+      "before_operations": 60,
+      "after_operations": 20,
+      "before_temporaries": 60,
+      "after_temporaries": 40,
+      "before_code_size": 1482,
+      "after_code_size": 1031,
+      "tests_passed": 100,
+      "tests_total": 100
+    },
+    "cat5_loops": {
+      "programs": 20,
+      "before": 260,
+      "after": 260,
+      "before_operations": 60,
+      "after_operations": 60,
+      "before_temporaries": 60,
+      "after_temporaries": 60,
+      "before_code_size": 2146,
+      "after_code_size": 2146,
+      "tests_passed": 100,
+      "tests_total": 100
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "cat1_constant_17",
+  "category": "cat1_constant",
+  "source": "x = 19 * 22;\ny = x + 17;\nprint y;",
+  "expected_outputs": [
+    "435"
+  ]
+}

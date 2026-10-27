@@ -1,0 +1,8 @@
+{
+  "id": "cat4_cse_05",
+  "category": "cat4_cse",
+  "source": "input a;\nt1 = a + 5;\nt2 = a * 2;\nt3 = a + 5;\nprint t3;",
+  "expected_outputs": [
+    "10"
+  ]
+}

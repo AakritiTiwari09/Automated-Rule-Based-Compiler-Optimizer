@@ -1,0 +1,8 @@
+{
+  "id": "cat2_algebraic_14",
+  "category": "cat2_algebraic",
+  "source": "input a;\nx = a + 0;\ny = x * 1;\nprint y;",
+  "expected_outputs": [
+    "14"
+  ]
+}

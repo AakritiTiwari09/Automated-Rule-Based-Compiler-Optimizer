@@ -1,0 +1,8 @@
+{
+  "id": "cat3_dead_code_04",
+  "category": "cat3_dead_code",
+  "source": "input a;\nt1 = a + 4;\nt2 = t1 * 2;\nx = 999;\nprint t2;",
+  "expected_outputs": [
+    "16"
+  ]
+}
